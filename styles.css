@@ -35,7 +35,7 @@ body {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(-50%);
+  transform: translateY(-50%);
   height: 4px;
   width: 0%;
   z-index: -1;
@@ -47,10 +47,11 @@ body {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(-50%);
+  transform: translateY(-50%);
   height: 4px;
-  width: 0%;
+  width: 100%;
   z-index: -1;
+  transition: 0.4s ease;
 }
 .progress__circle {
   background-color: white;
